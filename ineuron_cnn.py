@@ -72,13 +72,13 @@ print(result)
 print(result.shape)
 training_set.class_indices
 if result[0][0] == 1:
-    prediction = 'abid'
+    prediction = 'raj'
     print(prediction)
 elif result[0][1]==1:
-    prediction = 'faizan'
+    prediction = 'pooja'
     print(prediction)
 else:
-   prediction='kaif'   
+   prediction='reshma'   
    print(prediction)
 
 import numpy as np
